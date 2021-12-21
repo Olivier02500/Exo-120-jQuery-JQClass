@@ -1,0 +1,44 @@
+.ligne > div {
+    border: 1px solid indianred;
+    width: 8%;
+    height: 100px;
+    margin:1% 5%;
+}
+
+.ligne {
+    width: 100%;
+    height: 150px;
+    display: flex;
+
+}
+
+
+.mid, .round {
+    border-radius: 50%;
+}
+
+.diamond {
+    transform: rotate(45deg);
+}
+
+#divButton {
+    width: 50%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#empty, #full {
+    color: orange;
+    background: black;
+    border-radius: 5%;
+    border: orange 2px solid;
+}
+
+.color {
+    background-color: mediumpurple;
+}
+
+.colorNone {
+    background-color: white;
+}
